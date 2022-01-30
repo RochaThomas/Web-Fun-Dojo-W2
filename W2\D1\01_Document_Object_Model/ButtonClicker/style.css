@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-bar {
+    padding: 10px 20px;
+    margin: 0px 50px;
+    background-color: rgb(204,204,204);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px
+}
+h1 {
+    font-weight: normal;
+    font-size: 40px;
+}
+.border {
+    border-color: black;
+    border-width: medium;
+    border-style: solid;
+}
+#search {
+    height: 30px;
+    width: 300px;
+}
+.btn {
+    border-color: black;
+    border-style: solid;
+    border-width: medium;
+    box-shadow: 3px 3px 3px black;
+}
+#LoginLogout {
+    padding: 5px 15px;
+    font-size: 12pt;
+    color: white;
+    background-color: rgb(42,120,228);
+}
+.page-content {
+    padding: 25px 0px;
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.col-1 {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+.col-2 {
+    width: 250px;
+}
+.word-entry {
+    height: 200px;
+    padding: 10px 10px;
+    display: flex;
+}
+.word-entry-left-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.word {
+    flex: 2;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.likes {
+    margin: 10px 20px;
+    height: 40px;
+    font-size: 12pt;
+    color: black;
+    background-color: rgb(255,217,101);
+}
+#word {
+    font-size: 25pt;
+    font-weight: normal;
+}
+#partOfSpeech {
+    font-style: italic;
+}
+#italicPlural {
+    font-style: italic;
+}
+.definition {
+    flex: 2;
+    font-size: 15pt;
+    margin: 75px 30px;
+}
+#definition2 {
+    margin: 65px 30px;
+}
+.you-define {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px
+}
+#message {
+    font-size: 20pt;
+}
+#YOU {
+    font-weight: bold;
+}
+#add-def {
+    padding: 5px;
+    font-size: 15pt;
+    text-align: center;
+    background-color: rgb(147,196,124);
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <h1>Dojonary</h1>
+        <input type="text" name="search" placeholder="Search" id="search" class="border">
+        <button class="btn" id="LoginLogout" onclick="LoginLogout(this)">Login</button>
+    </div>
+    <div class="page-content">
+        <div class="col-1">
+            <div class="word-entry border">
+                <div class="word-entry-left-col">
+                    <div class="word">
+                        <h2 id="word">ninja</h2>
+                        <p id="partOfSpeech">noun</p>
+                        <p id="plural">Plural: <span id="italicPlural">ninjas</span></p>
+                    </div>
+                    <button class="btn likes" onclick="liked()">13 likes</button>
+                </div>
+                <p class="definition">A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></p>
+            </div>
+            <div class="word-entry border">
+                <div class="word-entry-left-col">
+                    <div class="word">
+                        <h2 id="word">ninja</h2>
+                        <p id="partOfSpeech">noun</p>
+                        <p id="plural">Plural: <span id="italicPlural">ninjas</span></p>
+                    </div>
+                    <button class="btn likes" onclick="liked()">37 likes</button>
+                </div>
+                <p class="definition" id="definition2">A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</p>
+            </div>
+        </div>
+        <div class="col-2">
+            <!-- usually don't want only one element in a div but I'm using this assignment as a kind of template -->
+            <div class="you-define border">
+                <p id="message">Dojonary is defined by <span id="YOU">YOU</span></p>
+                <button class="btn" id="add-def" onclick="hide(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
