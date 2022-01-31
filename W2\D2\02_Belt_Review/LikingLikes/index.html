@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <!-- just for formatting, I know you don't just want a div with one element in it -->
+        <h1 id="pageTitle">Network</h1>
+    </div>
+    <div class="pageBody">
+        <h2 id="pageHeader">Your Feed</h2>
+        <div class="content">
+            <div class="col-1">
+                <!-- just for formatting, I know you don't just want a div with one element in it -->
+                <div class="mainUser">
+                    <img src="IMG_9583 copy.JPG" alt="Photo of Main User Tommy Rocha" id="mainUserPic">
+                    <a href="" id="addAvatar">Add an avatar</a>
+                    <h2 id="mainUserName">Tommy Rocha</h2>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="post">
+                    <div class="postHeader">
+                        <h2 class="userName" id="user1">Neil M</h2>
+                    <h3 class="userLikes" id="user1Likes">9 like(s)</h3>
+                    <button class="like" id="user1Button" onclick="likeIt1(this)">Like</button>
+                    </div>
+                    <p class="postText" id="user1Text">I just set up this new discord bot, let me know what you all think. <a href="">link</a></p>
+                </div>
+                <div class="post">
+                    <div class="postHeader">
+                        <h2 class="userName" id="user2">Nichole K</h2>
+                    <h3 class="userLikes" id="user2Likes">12 like(s)</h3>
+                    <button class="like" id="user2Button" onclick="likeIt2(this)">Like</button>
+                    </div>
+                    <p class="postText" id="user2Text">Just finished my <a href="">next comic</a>, check it out</p>
+                </div>
+                <div class="post">
+                    <div class="postHeader">
+                        <h2 class="userName" id="user3">Jim R</h2>
+                    <h3 class="userLikes" id="user3Likes">9 like(s)</h3>
+                    <button class="like" id="user3Button" onclick="likeIt3(this)">Like</button>
+                    </div>
+                    <p class="postText" id="user3Text">I can't stop listening to the <a href="">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
