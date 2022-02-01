@@ -41,10 +41,10 @@
                         <p>Developer | Engineer | Probelm Solver</p>
                         <p>Master of shadows and the Internet!</p>
                     </div>
-                    <a href="" id="editSettings">
+                    <button id="editSettings" onclick="changeName()">
                         <img src="icons/gear.png" alt="Settings Icon" id="gear">
                         edit settings
-                    </a>
+                    </button>
                 </div>
             </div>
             <div class="educationCard">
@@ -69,7 +69,7 @@
                     </div>
                     <h3>Connection Requests</h3>
                 </div>
-                <div class="newPerson">
+                <div class="newPerson Todd">
                     <div class="namePic">
                         <div>
                             <img src="images/todd-s.jpg" alt="Todd S Profile Picture" class="connectionPic">
@@ -79,15 +79,15 @@
                         </div>
                     </div>
                     <div class="checksIcons">
-                        <a href="" class="checks">
+                        <button class="checks" onclick="accepted('.Todd')">
                             <img src="icons/accept-circle.png" alt="accept circle icon" class="checks">
-                        </a>
-                        <a href="" class="checks">
+                        </button>
+                        <button class="checks" onclick="declined('.Todd')">
                             <img src="icons/close-circle.png" alt="close circle icon" class="checks">
-                        </a>
+                        </button>
                     </div>
                 </div>
-                <div class="newPerson">
+                <div class="newPerson Phil">
                     <div class="namePic">
                         <div>
                             <img src="images/phil-s.jpg" alt="Phil S Profile Picture" class="connectionPic">
@@ -97,19 +97,19 @@
                         </div>
                     </div>
                     <div class="checksIcons">
-                        <a href="" class="checks">
+                        <button class="checks" onclick="accepted('.Phil')">
                             <img src="icons/accept-circle.png" alt="accept circle icon" class="checks">
-                        </a>
-                        <a href="" class="checks">
+                        </button>
+                        <button class="checks" onclick="declined('.Phil')">
                             <img src="icons/close-circle.png" alt="close circle icon" class="checks">
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
             <div class="connections">
                 <div class="socialHeader">
                     <div class="connectionNumbers" id="existing">
-                        <h3 id="yourConnections">500+</h3>
+                        <h3 id="yourConnections">418</h3>
                     </div>
                     <h3>Your Connections</h3>
                 </div>

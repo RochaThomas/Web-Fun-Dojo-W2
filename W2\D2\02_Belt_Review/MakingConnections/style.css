@@ -99,6 +99,10 @@ li {
 }
 #editSettings {
     font-size: 20px;
+    color: #0e5695;
+    text-decoration: underline;
+    border: none;
+    background-color: white;
 }
 #locationPin {
     height: 20px;
@@ -166,9 +170,6 @@ li {
 .requests {
     margin-bottom: 25px;
 }
-.connections{
-    
-}
 .socialHeader {
     height: 75px;
     padding: 0px 45px;
@@ -225,6 +226,8 @@ li {
     height: 45px;
     width: 45px;
     text-decoration: none;
+    border: none;
+    background-color: white;
 }
 .namePic {
     flex: 2;
