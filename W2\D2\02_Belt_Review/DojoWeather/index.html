@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topPage">
+        <div class="navBar">
+            <h1 id="pageTitle">DojoWeather</h1>
+            <ul id="cities">
+                <li onclick="navigatingTo(this)">Burbank</li>
+                <li onclick="navigatingTo(this)">Chicago</li>
+                <li onclick="navigatingTo(this)">Dallas</li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="contentHeader">
+            <h2>San Jose</h2>
+            <div class="tempSelector">
+                <span>show temperature in</span>
+                <select id="cOrF">
+                    <option value="Celsius">°C</option>
+                    <option value="Fahrenheit">°F</option>
+                </select>
+            </div>
+        </div>
+        <div class="contentBody">
+            <div class="col-Day">
+                <h3>Today</h3>
+                <img src="assets/some_rain.png" alt="rainy image" class="tempPic">
+                <span id="weatherDescription">some rain</span>
+                <ul class="highLow">
+                    <li class="high">24°</li>
+                    <li class="low">18°</li>
+                </ul>
+            </div>
+            <div class="col-Day">
+                <h3>Tomorrow</h3>
+                <img src="assets/some_sun.png" alt="sunny image" class="tempPic">
+                <span id="weatherDescription">some sun</span>
+                <ul class="highLow">
+                    <li class="high">27°</li>
+                    <li class="low">19°</li>
+                </ul>
+            </div>
+            <div class="col-Day">
+                <h3>Friday</h3>
+                <img src="assets/some_clouds.png" alt="cloudy image" class="tempPic">
+                <span id="weatherDescription">some clouds</span>
+                <ul class="highLow">
+                    <li class="high">21°</li>
+                    <li class="low">16°</li>
+                </ul>
+            </div>
+            <div class="col-Day">
+                <h3>Saturday</h3>
+                <img src="assets/some_sun.png" alt="sunny image" class="tempPic">
+                <span id="weatherDescription">some sun</span>
+                <ul class="highLow">
+                    <li class="high">26°</li>
+                    <li class="low">21°</li>
+                </ul>
+            </div>
+        </div>
+    <div class="cookie">
+        <img src="assets/cookie.png" alt="cookie image">
+        <div class="cookieMessage">
+            <h4>Stop! Cookie time</h4>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. <a href="">Read more...</a></p>
+        </div>
+        <button id="accept" onclick="accepted()">I Accept</button>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
